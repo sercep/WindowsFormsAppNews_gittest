@@ -19,6 +19,7 @@ namespace WindowsFormsAppNews
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            comboBox1.Items.AddRange(new string[] { "Гаджеты", "Кино", "Игры", "Музыка", "Печать" });
         }
     }
 }
