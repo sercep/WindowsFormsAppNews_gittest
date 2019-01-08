@@ -53,5 +53,36 @@ namespace WindowsFormsAppNews
             }
 
         }
+    
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            if (comboBox2.SelectedItem == "Железо и гаджеты")
+            {
+                listBox1.Items.Add("Процессоры");
+                listBox1.Items.Add("Видеокарты");
+                listBox1.Items.Add("Ноутбуки");
+                listBox1.Items.Add("Смартфоны");
+                listBox1.Items.Add("Телевизоры");
+                listBox1.Items.Add("Наушники");
+            }
+            else if (comboBox2.SelectedItem == "Кино")
+            {
+                listBox1.Items.Add("Анонсы");
+                listBox1.Items.Add("Трейлеры кино");
+                listBox1.Items.Add("Премии");
+            }
+            else if (comboBox2.SelectedItem == "Игры")
+            {
+                listBox1.Items.Add("Игровая индустрия");
+                listBox1.Items.Add("Трейлеры игр");
+                listBox1.Items.Add("Разработка игр");
+            }
+            else if (comboBox1.SelectedItem == "Музыка")
+            {
+                listBox1.Items.Add("Концерты");
+                listBox1.Items.Add("Релизы");
+            }
+        }
     }
 }
