@@ -56,33 +56,35 @@ namespace WindowsFormsAppNews
     
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
-            if (comboBox2.SelectedItem == "Железо и гаджеты")
+            label1.Text = "";
+            linkLabel1.Text = "";
+
+            label2.Text = "";
+            linkLabel2.Text = "";
+
+            label3.Text = "";
+            linkLabel3.Text = "";
+
+            label4.Text = "";
+            linkLabel4.Text = "";
+
+            label5.Text = "";
+            linkLabel5.Text = "";
+            if (comboBox2.SelectedItem == "Процессоры")
             {
-                listBox1.Items.Add("Процессоры");
-                listBox1.Items.Add("Видеокарты");
-                listBox1.Items.Add("Ноутбуки");
-                listBox1.Items.Add("Смартфоны");
-                listBox1.Items.Add("Телевизоры");
-                listBox1.Items.Add("Наушники");
+                linkLabel1.Text = "";
+
             }
-            else if (comboBox2.SelectedItem == "Кино")
+            else if (comboBox1.SelectedItem == "Видеокарты")
             {
-                listBox1.Items.Add("Анонсы");
-                listBox1.Items.Add("Трейлеры кино");
-                listBox1.Items.Add("Премии");
             }
-            else if (comboBox2.SelectedItem == "Игры")
+            else if (comboBox1.SelectedItem == "Ноутбуки")
             {
-                listBox1.Items.Add("Игровая индустрия");
-                listBox1.Items.Add("Трейлеры игр");
-                listBox1.Items.Add("Разработка игр");
             }
-            else if (comboBox1.SelectedItem == "Музыка")
+            else if (comboBox1.SelectedItem == "Смартфоны")
             {
-                listBox1.Items.Add("Концерты");
-                listBox1.Items.Add("Релизы");
             }
+
         }
     }
 }
