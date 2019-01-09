@@ -20,6 +20,7 @@ namespace WindowsFormsAppNews
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.Items.AddRange(new string[] { "Железо и гаджеты", "Кино", "Игры" });
+
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -210,6 +211,36 @@ namespace WindowsFormsAppNews
                 linkLabel5.Text = "https://dtf.ru/gamedev/32352-v-rossii-izdadut-knigu-razrabotka-igr-na-unreal-engine-4-za-24-chasa-pri-podderzhke-epic-games";
             }
             
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel1.Text);
+
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel2.Text);
+
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel3.Text);
+
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel4.Text);
+
+        }
+
+        private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start(linkLabel5.Text);
+
         }
     }
 }
