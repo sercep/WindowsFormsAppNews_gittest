@@ -1,9 +1,3 @@
-language: csharp  
-sudo: required  
-dist: trusty  
+language: csharp
+solution: WindowsFormsAppNews.sln
 mono: none
-dotnet: 4.7.2
-before_script:
-  - dotnet restore
-script:  
-  - dotnet test ./ThinkingHome.Migrator.Tests -c Release -f netcoreapp2.0
