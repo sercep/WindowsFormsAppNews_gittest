@@ -1,3 +1,3 @@
 language: csharp
-solution: solution-name.sln
+solution: WindowsFormsAppNews.sln
 script: ./build.sh
