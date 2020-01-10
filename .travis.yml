@@ -1,3 +1,0 @@
-language: csharp
-solution: WindowsFormsAppNews.sln
-script: ./build.sh
