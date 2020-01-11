@@ -9,7 +9,7 @@
     <ROW Property="ALLUSERS" Value="1"/>
     <ROW Property="ARPCOMMENTS" Value="Эта база данных установщика содержит логику и данные, необходимые для установки [|[ProductName]." ValueLocId="*"/>
     <ROW Property="ARPNOREPAIR" MultiBuildValue="DefaultBuild:1"/>
-    <ROW Property="Manufacturer" Value="Ваша_организация"/>
+    <ROW Property="Manufacturer" Value="WindowsFormsAppNews"/>
     <ROW Property="ProductCode" Value="1049:{297F633D-4DBE-40B0-913C-77182A88DD15} " Type="16"/>
     <ROW Property="ProductLanguage" Value="1049"/>
     <ROW Property="ProductName" Value="WindowsFormsAppNews"/>
